@@ -21,7 +21,7 @@ const NavItems = () => {
               isActive(item.href) ? "text-gray-100" : ""
             }`}
           >
-            {item.title}
+            {item.label}
           </Link>
         </li>
       ))}
